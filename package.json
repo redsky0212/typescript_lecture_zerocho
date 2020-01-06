@@ -1,0 +1,11 @@
+{
+  "name": "ts-lecture-zerocho",
+  "version": "1.0.0",
+  "description": "제로초 typescript 강좌 2020.01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
