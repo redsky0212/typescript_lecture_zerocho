@@ -8,6 +8,7 @@
   - [Visual Studio Code](https://code.visualstudio.com/)
 * NodeJs 설치 (https://nodejs.org/en/)
 * 소스코드 github (https://github.com/zerocho/ts-lecture)
+* 명령프롬프트 사용법 설명
 
 
 [여기 참조](https://cli.vuejs.org/guide/plugins-and-presets.html#plugins)
