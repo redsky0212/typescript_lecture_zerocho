@@ -9,6 +9,9 @@
 * NodeJs 설치 (https://nodejs.org/en/)
 * 소스코드 github (https://github.com/zerocho/ts-lecture)
 * 명령프롬프트 사용법 설명
+* TypeScript설치 (npm i typescript)
+  - npm i -g typescript 이렇게 글로벌로 설치하면 typescript명령어를 사용할 수 있다. ex) tsc
+  - ts파일을 만들어 typescript코딩을 한다음 tsc명령어로 js파일을 생성한 다음 html파일에는 컴파일된 js파일을 로드한다.
 
 
 [여기 참조](https://cli.vuejs.org/guide/plugins-and-presets.html#plugins)
