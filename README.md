@@ -1,6 +1,11 @@
 # 제로초 TypeScript 유료강좌 실시간.
-## ㅁㄴㄴㄴ
-* ㄴㄴㄴㄴ
+## 강좌 1일차
+* 링크
+  - [TypeScript 공식문서](https://www.typescriptlang.org/)
+
+
+
+
 [여기 참조](https://cli.vuejs.org/guide/plugins-and-presets.html#plugins)
 ### SideBar.vue
 * 메뉴 데이터에서 가져와 보여주기.
