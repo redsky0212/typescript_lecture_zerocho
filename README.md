@@ -3,6 +3,9 @@
 * 링크
   - [TypeScript 공식문서](https://www.typescriptlang.org/)
 
+* IDE 선택
+  - jet brains의 [webstorm](https://www.jetbrains.com/ko-kr/webstorm/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
 
 
 
