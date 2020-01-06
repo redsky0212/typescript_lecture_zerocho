@@ -6,7 +6,8 @@
 * IDE 선택
   - jet brains의 [webstorm](https://www.jetbrains.com/ko-kr/webstorm/)
   - [Visual Studio Code](https://code.visualstudio.com/)
-
+* NodeJs 설치 (https://nodejs.org/en/)
+* 소스코드 github (https://github.com/zerocho/ts-lecture)
 
 
 [여기 참조](https://cli.vuejs.org/guide/plugins-and-presets.html#plugins)
