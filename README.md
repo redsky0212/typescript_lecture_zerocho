@@ -23,7 +23,28 @@
   - package.json 에서 버전에 '^' 가 범위를 뜻하는 것(애매함)이므로 package-lock.json은 정확히 버전을 정해준 파일이다.
 * 변수에 type을 정해준다.
   - 해당 변수에 마우스를 올리면 type이 뭔지 IDE에서 보여주므로 바로 알 수 있다.
-  
+
+## 강좌 2일차
+* tsconfig.json 관련 강의
+  - ts, js 파일 동시에 띄우면 코드상에 에러가 생기는데 그건 tsconfig.json파일에 설정이 없어서 그러는거임.
+  - [컴파일옵션 관련 문서](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+  - tsconfig에 넣을 수 있는 옵션을 위에 사이트에서 보면서 작성하면 된다.
+  - .ts, d.ts 파일의 차이점... d.ts파일은 type만 다 적어둔 파일. d.ts파일로 분리해서 config에서 declaration 을 true. types옵션을 적용한다. -- 좀 더 체크 필요.
+  - 외워지지 않으므로 나중에 에러나면 찾아보고 익히는게 좋음.
+* 변수에 type지정하기 설명.
+  - type에는 대문자 타입을 넣으면 안됨. 전혀 다른 타입이 됨.
+  - 배열과 객체
+    - 배열값을 아예 상수처럼 쓰고싶으면 let arr = [true, 2, '3'] as const; 와 같이 const를 붙이면 된다.
+  - enum 타입관련 설명.
+    - 잘 안쓰게 됨.
+    - 속성이름에 index를 붙여줌.
+  - ?.연산자 관련 설명 (ts연산자임)
+  - 타입 강제로 바꾸기   hello as unknown as string  ---> 꼼수 (변환하는 타입이 상속관계에 있다면 unknown안넣어도 됨)
+* 숫자야구 코딩.
+  - 보통은 남이만든 타입은 타입을 안붙이고 내가 만든 type은 붙인다. 남이만든 type은 변경될 수도 있으므로.
+
+
+
 
 
 ### SideBar.vue
