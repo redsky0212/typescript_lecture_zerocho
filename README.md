@@ -2,6 +2,7 @@
 ## 강좌 1일차
 * 링크
   - [TypeScript 공식문서](https://www.typescriptlang.org/)
+  - [zerocho github ts-lecture](https://github.com/ZeroCho/ts-lecture)
 
 * IDE 선택
   - jet brains의 [webstorm](https://www.jetbrains.com/ko-kr/webstorm/)
@@ -43,7 +44,18 @@
 * 숫자야구 코딩.
   - 보통은 남이만든 타입은 타입을 안붙이고 내가 만든 type은 붙인다. 남이만든 type은 변경될 수도 있으므로.
 
-
+## 강좌 3일차
+* interface 관련 강의
+  - 처음 코딩시 최대한 js코딩으로 하고 나중에 ts type을 적용한다.
+  - dom 상의 textContent를 가져올 때. 이벤트 시 event.target.textContent할 수도 있고 this.textContent 할 수 있다.
+  - Object.keys(객체) 하면 key로 이루어진 배열이 된다.
+  - interface에 readonly 적용하면 값을 재바인딩 할 수 없다.
+  - 같은 이름의 interface가 두개 이상 있으면 그것들은 모두 합쳐져서 적용된다. - 남이 만들어놓은 interface를 수정해서 사용하고자 할때 유용함.
+  - type으로 선언해서 사용하는 경우도 있다. (같은 이름의 type이 여러개 있으면 그것들은 합쳐지지 않는다.)
+  - type은 interface보다 좀 더 넓은 개념이다. type Hello = string | number; 이렇게 객체 외에도 다른 것들도 type에서는 적용할 수 있다.
+  - RSP[keyof RSP] 키들을 가져올때 keyof를 사용.
+  - indexable type정하기 [a:string] : 타입. 이런식으로 interface에 적용하면 어떤 key값도 적용할 수 있다는 뜻.
+  - ! 느낌표 관련 설명 : 값이 무조건 있을거라고 표시한것. 값이 안들어갈수도 있어서 애러날 확률이 있다.
 
 
 

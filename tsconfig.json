@@ -1,7 +1,7 @@
 {
-    "compilerOptions": {
-      "strict": true,
-      "allowJs": true,
-    },
-    "exclude": ["*.js"]
-  }
+"compilerOptions": {
+    "strict": true,
+    "lib": ["es2020", "dom"],
+},
+"exclude": ["*.js"],
+}
