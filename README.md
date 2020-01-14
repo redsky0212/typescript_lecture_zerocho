@@ -61,6 +61,33 @@
   - 에러난 곳에 type설정이 범위에 맞게 잘 셋팅 되었는지.
   - 그래도 모르면 구글링 해보기.
 
+## 강좌 4일차
+* class
+  - null과 undefined를 구분하려면 tsconfig에서 strictNullChecks를 true 해준다.
+    - strictNullChecks 이게 어떤 역할을 하는지 알아봐야함.
+  - class 속성데이터는 기본 private로 하고 점차 필요에 따라 protected, public으로 넓혀가는게 좋음.
+  - ?. 연산자 관련 공부필요. (https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#optional-chaining)
+  ```
+  let x = foo?.bar.baz();
+  ```
+  ```
+  let x = (foo === null || foo === undefined) ?
+    undefined :
+    foo.bar.baz();
+  ```
+  - 위는 같은 코드임.
+  - 아래와 같이 연결해서 체크를 할 수도 있다.
+  ```
+  // Before
+  if (foo && foo.bar && foo.bar.baz) {
+      // ...
+  }
+
+  // After-ish
+  if (foo?.bar?.baz) {
+      // ...
+  }
+  ```
 
 ### SideBar.vue
 * 메뉴 데이터에서 가져와 보여주기.
