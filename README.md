@@ -96,11 +96,14 @@
 
 ## 강좌 6일차
 * module
-  - 남이 만든 lib를 다운 받을때 유형 5가지
-    1. 자체적으로 typescript를 제공해주는 라이브러리.
-    2. @types/파일명 과 같이 type을 제공해주는 라이브러리.
-    3. type을 제공하지 않아 내가 만들어서 사용하는 경우. 파일명.d.ts 파일을 만들어서 적용.
-    4. type을 제공하나 타입핑이 잘못된 경우는 .d.ts파일을 지우고 내가 다시 만든다.(최악의 경우)
+  - 남이 만든 lib를 다운 받을때 유형 5가지(typescript를 어느정도 지원하냐의 차이.)
+    1. 자체적으로 typescript를 제공해주는 라이브러리. ex) redux
+    2. index.d.ts파일을 따로 제공해주는 라이브러리. ex)axios
+    3. @types/파일명 과 같이 type을 DefinitelyTyped에서 제공해주는 라이브러리.
+        - github에 DefinitelyTyped레퍼지토리에 누군가 d.ts파일을 만들어 놓은 경우가 있음.
+        - npm i @types/파일명 이렇게 설치하면  DefinitelyTyped에서 설치해준다.
+    4. type을 제공하지 않아 내가 만들어서 사용하는 경우. 파일명.d.ts 파일을 만들어서 적용.
+    5. type을 제공하나 타입핑이 잘못된 경우는 .d.ts파일을 지우고 내가 다시 만든다.(최악의 경우)
 
   - .d.ts파일을 남이 만든것을 확장할때 쓰는거고 내가 만든 타입은 그냥 interface로 만들어서 쓰면 된다.
   - window같은거는 global로 만들어서 확장한다. 
